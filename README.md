@@ -89,4 +89,6 @@ x86_64-w64-mingw32-gcc loader.c -o loeader.exe
 .\loader.exe .\decoderstub.bin
 ```
 
+![alt text](screenshot.png)
+
 
