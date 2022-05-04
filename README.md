@@ -2,7 +2,7 @@
 An easy way to create decoder stubs in C
 
 
-I wanted to look at how decoder stubs work. After that I wanted to have a simple method to avoid having to write complicated encodings/decodings in assembler. So I embed the encoded shellcode in the text segment of a C program that can be used as a PIC. After extracting the shellcode of the PIC, it can be executed in a loader. 
+I wanted to look at how decoder stubs work. After that I wanted to have a simple method to avoid having to write complicated encodings/decodings in assembler. So I embed the encoded shellcode in the text segment of a C program that is PIC. After extracting the shellcode of the PIC, it can be executed in a loader. 
 
 > Since the shellcode changes itself, the memory must be RWX.
 
